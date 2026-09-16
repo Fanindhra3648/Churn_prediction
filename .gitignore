@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Generated model/data artifacts
+models/*.pkl
+outputs/*
+logs/*
+artifacts/*
+data/processed/*
+
+# Keep folder structure
+!models/.gitkeep
+!outputs/.gitkeep
+!logs/.gitkeep
+!artifacts/.gitkeep
+!data/processed/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
